@@ -24,7 +24,7 @@
 - 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
 - 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
-- 🔭 Currently building **[ResuMatch](https://github.com/BigFiiish/resumatch)** (AI resume ↔ JD analyzer) and **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime collaborative whiteboard)
+- 🔭 Currently building **[ResuMatch](https://github.com/BigFiiish/resumatch)** (AI resume ↔ JD analyzer), **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard), and **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard)
 
 ### Tech stack
 
@@ -88,6 +88,8 @@
 **[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked.
 
 **[SketchSync](https://github.com/BigFiiish/sketchsync)** — realtime collaborative whiteboard: shareable rooms, live named cursors, per-user undo, and PNG export. Raw WebSockets (no Socket.IO) over a typed message protocol; Node.js + Express server with unit-tested room logic, React canvas frontend.
+
+**[PulseQueue](https://github.com/BigFiiish/pulsequeue)** — watch a job queue work in real time: workers lease jobs, retries use exponential backoff, and poison messages land in a dead-letter queue. Pure TypeScript queue engine (no HTTP in the core, so lease exclusivity and DLQ rules are unit-tested) with a React dashboard over Server-Sent Events.
 
 ### Stats
 
