@@ -8,7 +8,7 @@
 
 ### About me
 
-- 🔭 Currently building **[ResuMatch](https://github.com/BigFiiish/resumatch)** — an AI resume ↔ job-description analyzer (React + FastAPI)
+- 🔭 Currently building **[ResuMatch](https://github.com/BigFiiish/resumatch)** — an AI resume ↔ job-description analyzer — and **[SketchSync](https://github.com/BigFiiish/sketchsync)** — a realtime collaborative whiteboard
 - 🌱 Studying data structures & algorithms (CMU 08-722 coursework on this profile)
 - 💬 Interested in **full-stack web development** and **LLM-powered applications**
 - 📫 Reach me through GitHub issues or discussions on any of my repos
@@ -38,9 +38,11 @@
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
-### Featured project
+### Featured projects
 
 **[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked.
+
+**[SketchSync](https://github.com/BigFiiish/sketchsync)** — realtime collaborative whiteboard: shareable rooms, live named cursors, per-user undo, and PNG export. Raw WebSockets (no Socket.IO) over a typed message protocol; Node.js + Express server with unit-tested room logic, React canvas frontend.
 
 ### Stats
 
