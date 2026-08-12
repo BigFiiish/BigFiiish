@@ -1,42 +1,87 @@
 <h1 align="center">Hi, I'm BigFiiish (Xingji Yan) 👋</h1>
 
 <p align="center">
-  Full-stack developer building web apps and AI-powered tools.
+  <strong>Software Engineer</strong> · 3+ years · M.S. Carnegie Mellon University
+</p>
+
+<p align="center">
+  Multi-tenant SaaS · AI-integrated platforms · High-performance backends
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/xingji-yan">LinkedIn</a> ·
+  <a href="mailto:yanxingji7@gmail.com">yanxingji7@gmail.com</a> ·
+  <a href="https://github.com/BigFiiish">GitHub</a>
 </p>
 
 ---
 
 ### About me
 
-- 🔭 Currently building **[ResuMatch](https://github.com/BigFiiish/resumatch)** — an AI resume ↔ job-description analyzer — and **[SketchSync](https://github.com/BigFiiish/sketchsync)** — a realtime collaborative whiteboard
-- 🌱 Studying data structures & algorithms (CMU 08-722 coursework on this profile)
-- 💬 Interested in **full-stack web development** and **LLM-powered applications**
-- 📫 Reach me through GitHub issues or discussions on any of my repos
+- 💼 Most recently **Software Engineer at JASCI Software** — multi-tenant warehouse SaaS serving **20+ 3PL customers** and **500+ concurrent users**
+- 🤖 Shipped an **AI action layer** (MCP tools, JSON Schema contracts, audit logging) that collapsed multi-screen warehouse workflows into single natural-language requests
+- ⚡ Cut inventory search from **10+ seconds to sub-second** on million-record tables; designed tenant-scoped **OAuth 2.1** isolation and a configurable 3PL billing engine (~10 hours of manual recon saved per customer / month)
+- 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
+- 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
+- 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
+- 🔭 Currently building **[ResuMatch](https://github.com/BigFiiish/resumatch)** (AI resume ↔ JD analyzer) and **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime collaborative whiteboard)
 
 ### Tech stack
+
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white)
 
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)
 
-**Backend**
+**Backend & Architecture**
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?logo=hibernate&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?logo=postman&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-0A66C2)
+![OAuth 2.1](https://img.shields.io/badge/OAuth_2.1-EB5424?logo=auth0&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-412991)
 
-**AI & Tools**
+**Data & Messaging**
+
+![Oracle](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white)
+
+**Cloud, DevOps & Quality**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?logo=junit5&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?logo=sonarqube&logoColor=white)
+![JMeter](https://img.shields.io/badge/JMeter-D22128)
+
+**AI**
 
 ![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?logo=openai&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Tools-412991)
+![RAG](https://img.shields.io/badge/RAG-FF6F00)
 
 ### Featured projects
 
