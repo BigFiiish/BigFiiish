@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm BigFiiish 👋</h1>
+<h1 align="center">Hi, I'm BigFiiish (Xingji Yan) 👋</h1>
 
 <p align="center">
   Full-stack developer building web apps and AI-powered tools.
