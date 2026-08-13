@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm BigFiiish (Xingji Yan) 👋</h1>
 
 <p align="center">
-  <strong>Software Engineer</strong> · 3+ years · M.S. Carnegie Mellon University
+  <strong>Software Engineer</strong> · 4+ years · M.S. Carnegie Mellon University
 </p>
 
 <p align="center">
