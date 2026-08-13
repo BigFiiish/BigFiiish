@@ -90,7 +90,7 @@
 
 <!-- FEATURED:START -->
 
-**[Clearbay](https://github.com/BigFiiish/clearbay)** — multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), sub-second inventory search (one query + tenant-safe cache), MCP tools with JSON Schema guardrails and audit logs, a configurable billing engine, and async jobs with retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked.
+**[Clearbay](https://github.com/BigFiiish/clearbay)** — multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), sub-second inventory search (one query + tenant-safe cache), MCP tools with JSON Schema guardrails and audit logs, a configurable billing engine, and async jobs with retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked. Live: [clearbay.onrender.com](https://clearbay.onrender.com).
 
 **[Durable Brief](https://github.com/BigFiiish/durable-brief)** — a one-page briefing desk on the Vercel Workflow SDK: parallel research, sequential draft, evaluator-optimizer loop, then a human approval hook. Close the tab or redeploy — the run is still waiting; publish has not happened. Live: [durable-brief.vercel.app](https://durable-brief.vercel.app).
 

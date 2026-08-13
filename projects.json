@@ -4,6 +4,13 @@
   "buildingLimit": 5,
   "featured": [
     {
+      "repo": "clearbay",
+      "title": "Clearbay",
+      "short": "multi-tenant 3PL API",
+      "live": "https://clearbay.onrender.com",
+      "blurb": "multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), sub-second inventory search (one query + tenant-safe cache), MCP tools with JSON Schema guardrails and audit logs, a configurable billing engine, and async jobs with retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked"
+    },
+    {
       "repo": "durable-brief",
       "title": "Durable Brief",
       "short": "Vercel Workflows briefing desk",
