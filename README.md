@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Multi-tenant SaaS · AI-integrated platforms · High-performance backends
+  Durable workflows · AI-integrated platforms · High-performance backends
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 - 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
 - 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
-- 🔭 Currently building **[ResuMatch](https://github.com/BigFiiish/resumatch)** (AI resume ↔ JD analyzer), **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard), and **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard)
+- 🔭 <!-- BUILDING:START -->Currently building **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard), and **[ResuMatch](https://github.com/BigFiiish/resumatch)** (AI resume ↔ JD analyzer)<!-- BUILDING:END -->
 
 ### Tech stack
 
@@ -39,6 +39,7 @@
 
 **Frontend**
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -79,17 +80,25 @@
 
 **AI**
 
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+![Workflow SDK](https://img.shields.io/badge/Workflow_SDK-000000)
 ![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?logo=openai&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_Tools-412991)
 ![RAG](https://img.shields.io/badge/RAG-FF6F00)
 
 ### Featured projects
 
-**[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked.
+<!-- FEATURED:START -->
+
+**[Durable Brief](https://github.com/BigFiiish/durable-brief)** — a one-page briefing desk on the Vercel Workflow SDK: parallel research, sequential draft, evaluator-optimizer loop, then a human approval hook. Close the tab or redeploy — the run is still waiting; publish has not happened. Live: [durable-brief.vercel.app](https://durable-brief.vercel.app).
+
+**[PulseQueue](https://github.com/BigFiiish/pulsequeue)** — watch a job queue work in real time: workers lease jobs, retries use exponential backoff, and poison messages land in a dead-letter queue. Pure TypeScript queue engine (no HTTP in the core, so lease exclusivity and DLQ rules are unit-tested) with a React dashboard over Server-Sent Events. Live: [pulsequeue-wokz.onrender.com](https://pulsequeue-wokz.onrender.com).
 
 **[SketchSync](https://github.com/BigFiiish/sketchsync)** — realtime collaborative whiteboard: shareable rooms, live named cursors, per-user undo, and PNG export. Raw WebSockets (no Socket.IO) over a typed message protocol; Node.js + Express server with unit-tested room logic, React canvas frontend.
 
-**[PulseQueue](https://github.com/BigFiiish/pulsequeue)** — watch a job queue work in real time: workers lease jobs, retries use exponential backoff, and poison messages land in a dead-letter queue. Pure TypeScript queue engine (no HTTP in the core, so lease exclusivity and DLQ rules are unit-tested) with a React dashboard over Server-Sent Events.
+**[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked.
+
+<!-- FEATURED:END -->
 
 ### Stats
 

@@ -1,0 +1,39 @@
+name: Sync profile README
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - projects.json
+      - scripts/sync-readme.mjs
+      - .github/workflows/sync-readme.yml
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh project sections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync-readme.mjs
+      - name: Commit if README changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "README already in sync"
+            exit 0
+          fi
+          git commit -m "Sync featured projects from public GitHub repos"
+          git push
