@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Durable workflows · Eval-first agents · High-performance backends
+  Full-Stack · Durable workflows · AI-integrated platforms · Eval-first agents · High-performance backends
 </p>
 
 <p align="center">
