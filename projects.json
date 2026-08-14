@@ -8,7 +8,14 @@
       "title": "Clearbay",
       "short": "multi-tenant 3PL API",
       "live": "https://clearbay.onrender.com",
-      "blurb": "multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), sub-second inventory search (one query + tenant-safe cache), MCP tools with JSON Schema guardrails and audit logs, a configurable billing engine, and async jobs with retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked"
+      "blurb": "multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), RBAC from token roles, sub-second inventory search (one query + tenant-versioned cache), MCP tools with JSON Schema guardrails and a readable audit log, a configurable billing engine, and async jobs with delayed retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked"
+    },
+    {
+      "repo": "dockline",
+      "title": "Dockline",
+      "short": "eval-first MCP ops agent",
+      "live": "https://dockline.onrender.com",
+      "blurb": "eval-first warehouse ops agent that only acts through Clearbay MCP. 40 rule-scored cases lock tenant isolation, read-only writes, extra JSON fields, and vague-prompt refusals. Deterministic router by default (optional OpenAI tools); the model is never the judge. FastAPI + traces — the on-site loop you bring to an existing MCP API"
     },
     {
       "repo": "durable-brief",

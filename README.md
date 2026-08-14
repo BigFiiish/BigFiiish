@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Durable workflows · AI-integrated platforms · High-performance backends
+  Durable workflows · Eval-first agents · High-performance backends
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 - 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
 - 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
-- 🔭 <!-- BUILDING:START -->Currently building **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard), and **[ResuMatch](https://github.com/BigFiiish/resumatch)** (AI resume ↔ JD analyzer)<!-- BUILDING:END -->
+- 🔭 <!-- BUILDING:START -->Currently building **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), and **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard)<!-- BUILDING:END -->
 
 ### Tech stack
 
@@ -90,7 +90,9 @@
 
 <!-- FEATURED:START -->
 
-**[Clearbay](https://github.com/BigFiiish/clearbay)** — multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), sub-second inventory search (one query + tenant-safe cache), MCP tools with JSON Schema guardrails and audit logs, a configurable billing engine, and async jobs with retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked. Live: [clearbay.onrender.com](https://clearbay.onrender.com).
+**[Clearbay](https://github.com/BigFiiish/clearbay)** — multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), RBAC from token roles, sub-second inventory search (one query + tenant-versioned cache), MCP tools with JSON Schema guardrails and a readable audit log, a configurable billing engine, and async jobs with delayed retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked. Live: [clearbay.onrender.com](https://clearbay.onrender.com).
+
+**[Dockline](https://github.com/BigFiiish/dockline)** — eval-first warehouse ops agent that only acts through Clearbay MCP. 40 rule-scored cases lock tenant isolation, read-only writes, extra JSON fields, and vague-prompt refusals. Deterministic router by default (optional OpenAI tools); the model is never the judge. FastAPI + traces — the on-site loop you bring to an existing MCP API. Live: [dockline.onrender.com](https://dockline.onrender.com).
 
 **[Durable Brief](https://github.com/BigFiiish/durable-brief)** — a one-page briefing desk on the Vercel Workflow SDK: parallel research, sequential draft, evaluator-optimizer loop, then a human approval hook. Close the tab or redeploy — the run is still waiting; publish has not happened. Live: [durable-brief.vercel.app](https://durable-brief.vercel.app).
 
