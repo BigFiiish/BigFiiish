@@ -24,7 +24,7 @@
 - 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
 - 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
-- 🔭 <!-- BUILDING:START -->Currently building **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), and **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard)<!-- BUILDING:END -->
+- 🔭 <!-- BUILDING:START -->Currently building **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard), and **[ResuMatch](https://github.com/BigFiiish/resumatch)** (AI resume ↔ JD analyzer)<!-- BUILDING:END -->
 
 ### Tech stack
 
