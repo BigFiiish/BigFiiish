@@ -102,6 +102,8 @@
 
 **[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked. Live: [resumatch-livid.vercel.app](https://resumatch-livid.vercel.app).
 
+**[xingji-portfolio](https://github.com/BigFiiish/xingji-portfolio)** — Interactive WebGL fluid portfolio for Xingji Yan. Live: [xingji-portfolio.vercel.app](https://xingji-portfolio.vercel.app).
+
 <!-- FEATURED:END -->
 
 ### Stats
