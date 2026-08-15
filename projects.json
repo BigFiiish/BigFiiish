@@ -41,6 +41,7 @@
       "repo": "resumatch",
       "title": "ResuMatch",
       "short": "AI resume ↔ JD analyzer",
+      "live": "https://resumatch-livid.vercel.app",
       "blurb": "paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked."
     }
   ]

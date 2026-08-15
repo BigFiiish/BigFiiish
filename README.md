@@ -100,7 +100,7 @@
 
 **[SketchSync](https://github.com/BigFiiish/sketchsync)** — realtime collaborative whiteboard: shareable rooms, live named cursors, per-user undo, and PNG export. Raw WebSockets (no Socket.IO) over a typed message protocol; Node.js + Express server with unit-tested room logic, React canvas frontend.
 
-**[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked.
+**[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked. Live: [resumatch-livid.vercel.app](https://resumatch-livid.vercel.app).
 
 <!-- FEATURED:END -->
 
