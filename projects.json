@@ -4,6 +4,12 @@
   "buildingLimit": 6,
   "featured": [
     {
+      "repo": "grantline",
+      "title": "Grantline",
+      "short": "passwordless access broker",
+      "blurb": "passwordless access broker in Go: humans, machines, and AI agents prove an ed25519 key, receive a 5-minute grant, then open policy-checked sessions. Tenant comes from the grant (spoof headers ignored), kind+role is authorization, and identity/session/audit lists are server-paginated. React console + RFD; stdlib only, tested and CI-checked"
+    },
+    {
       "repo": "clearbay",
       "title": "Clearbay",
       "short": "multi-tenant 3PL API",
@@ -43,6 +49,13 @@
       "short": "AI resume ↔ JD analyzer",
       "live": "https://resumatch-livid.vercel.app",
       "blurb": "paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked."
+    },
+    {
+      "repo": "xingji-portfolio",
+      "title": "xingjiyan.com",
+      "short": "personal site",
+      "live": "https://www.xingjiyan.com",
+      "blurb": "selected systems first: Clearbay, Durable Brief, PulseQueue, ResuMatch. Built for a five-second read — name, what I do, impact, work"
     }
   ]
 }

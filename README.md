@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.xingjiyan.com">xingjiyan.com</a> ·
   <a href="https://linkedin.com/in/xingji-yan">LinkedIn</a> ·
   <a href="mailto:yanxingji7@gmail.com">yanxingji7@gmail.com</a> ·
   <a href="https://github.com/BigFiiish">GitHub</a>
@@ -24,12 +25,13 @@
 - 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
 - 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
-- 🔭 <!-- BUILDING:START -->Currently building **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard), and **[ResuMatch](https://github.com/BigFiiish/resumatch)** (AI resume ↔ JD analyzer)<!-- BUILDING:END -->
+- 🔭 <!-- BUILDING:START -->Currently building **[Grantline](https://github.com/BigFiiish/grantline)** (passwordless access broker), **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), and **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard)<!-- BUILDING:END -->
 
 ### Tech stack
 
 **Languages**
 
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![C%23](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
@@ -49,6 +51,7 @@
 
 **Backend & Architecture**
 
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?logo=hibernate&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
@@ -90,6 +93,8 @@
 
 <!-- FEATURED:START -->
 
+**[Grantline](https://github.com/BigFiiish/grantline)** — passwordless access broker in Go: humans, machines, and AI agents prove an ed25519 key, receive a 5-minute grant, then open policy-checked sessions. Tenant comes from the grant (spoof headers ignored), kind+role is authorization, and identity/session/audit lists are server-paginated. React console + RFD; stdlib only, tested and CI-checked.
+
 **[Clearbay](https://github.com/BigFiiish/clearbay)** — multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), RBAC from token roles, sub-second inventory search (one query + tenant-versioned cache), MCP tools with JSON Schema guardrails and a readable audit log, a configurable billing engine, and async jobs with delayed retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked. Live: [clearbay.onrender.com](https://clearbay.onrender.com).
 
 **[Dockline](https://github.com/BigFiiish/dockline)** — eval-first warehouse ops agent that only acts through Clearbay MCP. 40 rule-scored cases lock tenant isolation, read-only writes, extra JSON fields, and vague-prompt refusals. Deterministic router by default (optional OpenAI tools); the model is never the judge. FastAPI + traces — the on-site loop you bring to an existing MCP API. Live: [dockline.onrender.com](https://dockline.onrender.com).
@@ -102,7 +107,7 @@
 
 **[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked. Live: [resumatch-livid.vercel.app](https://resumatch-livid.vercel.app).
 
-**[xingji-portfolio](https://github.com/BigFiiish/xingji-portfolio)** — Interactive WebGL fluid portfolio for Xingji Yan. Live: [xingji-portfolio.vercel.app](https://xingji-portfolio.vercel.app).
+**[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — selected systems first: Clearbay, Durable Brief, PulseQueue, ResuMatch. Built for a five-second read — name, what I do, impact, work. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
 
 <!-- FEATURED:END -->
 
