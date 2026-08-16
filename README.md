@@ -107,7 +107,7 @@
 
 **[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked. Live: [resumatch-livid.vercel.app](https://resumatch-livid.vercel.app).
 
-**[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — selected systems first: Clearbay, Durable Brief, PulseQueue, ResuMatch. Built for a five-second read — name, what I do, impact, work. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
+**[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — systems-first portfolio: Clearbay, Grantline, Durable Brief, PulseQueue, Dockline. Case studies, command palette, architecture x-ray. M.S. ECE, Carnegie Mellon. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
 
 <!-- FEATURED:END -->
 
