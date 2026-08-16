@@ -93,7 +93,7 @@
 
 <!-- FEATURED:START -->
 
-**[Grantline](https://github.com/BigFiiish/grantline)** — passwordless access broker in Go: humans, machines, and AI agents prove an ed25519 key, receive a 5-minute grant, then open policy-checked sessions. Tenant comes from the grant (spoof headers ignored), kind+role is authorization, and identity/session/audit lists are server-paginated. React console + RFD; stdlib only, tested and CI-checked.
+**[Grantline](https://github.com/BigFiiish/grantline)** — passwordless access broker in Go: humans, machines, and AI agents prove an ed25519 key, receive a 5-minute grant, then open policy-checked sessions. Tenant comes from the grant (spoof headers ignored), kind+role is authorization, and identity/session/audit lists are server-paginated. React console + RFD; stdlib only, tested and CI-checked. Live: [grantline.onrender.com](https://grantline.onrender.com).
 
 **[Clearbay](https://github.com/BigFiiish/clearbay)** — multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), RBAC from token roles, sub-second inventory search (one query + tenant-versioned cache), MCP tools with JSON Schema guardrails and a readable audit log, a configurable billing engine, and async jobs with delayed retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked. Live: [clearbay.onrender.com](https://clearbay.onrender.com).
 

@@ -7,6 +7,7 @@
       "repo": "grantline",
       "title": "Grantline",
       "short": "passwordless access broker",
+      "live": "https://grantline.onrender.com",
       "blurb": "passwordless access broker in Go: humans, machines, and AI agents prove an ed25519 key, receive a 5-minute grant, then open policy-checked sessions. Tenant comes from the grant (spoof headers ignored), kind+role is authorization, and identity/session/audit lists are server-paginated. React console + RFD; stdlib only, tested and CI-checked"
     },
     {
