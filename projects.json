@@ -42,6 +42,7 @@
       "repo": "sketchsync",
       "title": "SketchSync",
       "short": "realtime whiteboard",
+      "live": "https://sketchsync-fwed.onrender.com",
       "blurb": "realtime collaborative whiteboard: shareable rooms, live named cursors, per-user undo, and PNG export. Raw WebSockets (no Socket.IO) over a typed message protocol; Node.js + Express server with unit-tested room logic, React canvas frontend."
     },
     {
