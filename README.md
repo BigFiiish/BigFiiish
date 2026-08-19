@@ -109,6 +109,8 @@
 
 **[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — systems-first portfolio: on-call for tenants, retries, and agents that fail closed. Clearbay, Grantline, Failure Playground, and a note — The model is never the judge. M.S. ECE, Carnegie Mellon. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
 
+**[java-exam-practice](https://github.com/BigFiiish/java-exam-practice)** — public project.
+
 <!-- FEATURED:END -->
 
 ### Stats
