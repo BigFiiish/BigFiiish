@@ -25,7 +25,7 @@
 - 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
 - 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
-- 🔭 <!-- BUILDING:START -->Currently building **[Grantline](https://github.com/BigFiiish/grantline)** (passwordless access broker), **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** (transaction-safe commerce API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), and **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard)<!-- BUILDING:END -->
+- 🔭 <!-- BUILDING:START -->Currently building **[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** (transaction-safe Spring checkout), **[Grantline](https://github.com/BigFiiish/grantline)** (passwordless access broker), **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), and **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard)<!-- BUILDING:END -->
 
 ### Tech stack
 
@@ -93,11 +93,11 @@
 
 <!-- FEATURED:START -->
 
+**[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** — interactive Java 21 / Spring Boot order service: atomic conditional stock updates prevent overselling, unique idempotency keys make retries safe, multi-item failures roll back as one transaction, and shipping commits before bounded asynchronous webhook delivery. Spring JDBC + H2 + Docker, with a real two-thread last-unit race and 45 passing tests. Live: [xingji-catalog-order-service.onrender.com](https://xingji-catalog-order-service.onrender.com).
+
 **[Grantline](https://github.com/BigFiiish/grantline)** — passwordless access broker in Go: humans, machines, and AI agents prove an ed25519 key, receive a 5-minute grant, then open policy-checked sessions. Tenant comes from the grant (spoof headers ignored), kind+role is authorization, and identity/session/audit lists are server-paginated. React console + RFD; stdlib only, tested and CI-checked. Live: [grantline.onrender.com](https://grantline.onrender.com).
 
 **[Clearbay](https://github.com/BigFiiish/clearbay)** — multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), RBAC from token roles, sub-second inventory search (one query + tenant-versioned cache), MCP tools with JSON Schema guardrails and a readable audit log, a configurable billing engine, and async jobs with delayed retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked. Live: [clearbay.onrender.com](https://clearbay.onrender.com).
-
-**[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** — transaction-focused Java 21 and Spring Boot order service with atomic conditional stock updates, one-transaction order creation, database-backed idempotency, deterministic product ordering, and async webhook retries. Includes a dependency-free browser reliability lab, a real two-thread last-unit race test, 44 passing tests, and GitHub Actions CI.
 
 **[Dockline](https://github.com/BigFiiish/dockline)** — eval-first warehouse ops agent that only acts through Clearbay MCP. 40 rule-scored cases lock tenant isolation, read-only writes, extra JSON fields, and vague-prompt refusals. Deterministic router by default (optional OpenAI tools); the model is never the judge. FastAPI + traces — the on-site loop you bring to an existing MCP API. Live: [dockline.onrender.com](https://dockline.onrender.com).
 

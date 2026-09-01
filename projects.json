@@ -1,8 +1,15 @@
 {
   "login": "BigFiiish",
   "ignore": ["BigFiiish"],
-  "buildingLimit": 6,
+  "buildingLimit": 7,
   "featured": [
+    {
+      "repo": "catalog-order-service",
+      "title": "Catalog Order Service",
+      "short": "transaction-safe Spring checkout",
+      "live": "https://xingji-catalog-order-service.onrender.com",
+      "blurb": "interactive Java 21 / Spring Boot order service: atomic conditional stock updates prevent overselling, unique idempotency keys make retries safe, multi-item failures roll back as one transaction, and shipping commits before bounded asynchronous webhook delivery. Spring JDBC + H2 + Docker, with a real two-thread last-unit race and 45 passing tests"
+    },
     {
       "repo": "grantline",
       "title": "Grantline",
@@ -16,12 +23,6 @@
       "short": "multi-tenant 3PL API",
       "live": "https://clearbay.onrender.com",
       "blurb": "multi-tenant 3PL operations API that maps to JASCI-style work: tenant-scoped OAuth (JWT `tid` claim, spoof headers ignored), RBAC from token roles, sub-second inventory search (one query + tenant-versioned cache), MCP tools with JSON Schema guardrails and a readable audit log, a configurable billing engine, and async jobs with delayed retry. Spring Boot 4.1 + PostgreSQL + Redis, tested and CI-checked"
-    },
-    {
-      "repo": "catalog-order-service",
-      "title": "Catalog Order Service",
-      "short": "transaction-safe commerce API",
-      "blurb": "transaction-focused Java 21 and Spring Boot order service with atomic conditional stock updates, one-transaction order creation, database-backed idempotency, deterministic product ordering, and async webhook retries. Includes a dependency-free browser reliability lab, a real two-thread last-unit race test, 44 passing tests, and GitHub Actions CI"
     },
     {
       "repo": "dockline",
