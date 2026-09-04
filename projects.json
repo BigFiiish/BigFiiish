@@ -7,6 +7,7 @@
       "repo": "crawlforge",
       "title": "CrawlForge",
       "short": "durable, polite web crawler",
+      "live": "https://xingji-crawlforge.onrender.com",
       "blurb": "Java 21 / Spring Boot crawler with a durable breadth-first frontier, canonical URL deduplication, robots.txt enforcement, per-origin rate limiting, bounded retries, restart recovery, and SSRF-aware redirect validation. Spring JDBC + H2, an inspectable REST API/dashboard, and 13 passing tests"
     },
     {

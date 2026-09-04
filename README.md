@@ -25,7 +25,7 @@
 - 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
 - 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
-- 🔭 <!-- BUILDING:START -->Currently building **[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** (transaction-safe Spring checkout), **[Grantline](https://github.com/BigFiiish/grantline)** (passwordless access broker), **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard), and **[SketchSync](https://github.com/BigFiiish/sketchsync)** (realtime whiteboard)<!-- BUILDING:END -->
+- 🔭 <!-- BUILDING:START -->Currently building **[CrawlForge](https://github.com/BigFiiish/crawlforge)** (durable, polite web crawler), **[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** (transaction-safe Spring checkout), **[Grantline](https://github.com/BigFiiish/grantline)** (passwordless access broker), **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), and **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard)<!-- BUILDING:END -->
 
 ### Tech stack
 
@@ -92,6 +92,8 @@
 ### Featured projects
 
 <!-- FEATURED:START -->
+
+**[CrawlForge](https://github.com/BigFiiish/crawlforge)** — Java 21 / Spring Boot crawler with a durable breadth-first frontier, canonical URL deduplication, robots.txt enforcement, per-origin rate limiting, bounded retries, restart recovery, and SSRF-aware redirect validation. Spring JDBC + H2, an inspectable REST API/dashboard, and 13 passing tests. Live: [xingji-crawlforge.onrender.com](https://xingji-crawlforge.onrender.com).
 
 **[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** — interactive Java 21 / Spring Boot order service: atomic conditional stock updates prevent overselling, unique idempotency keys make retries safe, multi-item failures roll back as one transaction, and shipping commits before bounded asynchronous webhook delivery. Spring JDBC + H2 + Docker, with a real two-thread last-unit race and 45 passing tests. Live: [xingji-catalog-order-service.onrender.com](https://xingji-catalog-order-service.onrender.com).
 
