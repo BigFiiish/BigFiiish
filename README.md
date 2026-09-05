@@ -111,7 +111,7 @@
 
 **[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked. Live: [resumatch-livid.vercel.app](https://resumatch-livid.vercel.app).
 
-**[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — systems-first portfolio with interactive product demos, architecture views, and failure-focused case studies. Featured work now includes CrawlForge careers intelligence, Catalog Order Service, Clearbay, Grantline, Durable Brief, and PulseQueue. M.S. ECE, Carnegie Mellon. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
+**[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — systems-first portfolio with a compact six-project overview, balanced side-by-side product demos, architecture views, and failure-focused case studies. Featured work includes CrawlForge careers intelligence, Catalog Order Service, Clearbay, Grantline, Durable Brief, and PulseQueue. M.S. ECE, Carnegie Mellon. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
 
 **[java-exam-practice](https://github.com/BigFiiish/java-exam-practice)** — public project.
 
