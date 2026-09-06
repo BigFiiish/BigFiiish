@@ -111,7 +111,7 @@
 
 **[ResuMatch](https://github.com/BigFiiish/resumatch)** — paste a resume and a job description, get a 0–100 match score, skill-gap breakdown, and concrete suggestions. Deterministic TF-IDF + skill-extraction core with an optional LLM coaching layer; React 19 + TypeScript frontend, FastAPI backend, tested and CI-checked. Live: [resumatch-livid.vercel.app](https://resumatch-livid.vercel.app).
 
-**[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — systems-first portfolio led by CrawlForge, Catalog Order Service, and Clearbay. All nine projects have shareable case-study URLs, distinct OG cards, explicit ownership and evidence, failure tradeoffs, and a concrete next-improvement plan. A new engineering writing archive connects working code to judgment on bounded crawling, transactional idempotency, deterministic agent evals, and durable human approval. M.S. ECE, Carnegie Mellon. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
+**[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — systems-first portfolio led by CrawlForge, Catalog Order Service, and Clearbay, now connected by a concise Now / Looking for narrative and a keyboard-accessible nine-project topology. Four compact failure guarantees lead into shareable case studies. The engineering writing collection records published and updated dates, visualizes each design decision, links claims to commit-pinned code and primary sources, and connects related essays. M.S. ECE, Carnegie Mellon. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
 
 **[java-exam-practice](https://github.com/BigFiiish/java-exam-practice)** — public project.
 

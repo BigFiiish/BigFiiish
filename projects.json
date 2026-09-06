@@ -71,7 +71,7 @@
       "title": "xingjiyan.com",
       "short": "portfolio + engineering writing",
       "live": "https://www.xingjiyan.com",
-      "blurb": "systems-first portfolio led by CrawlForge, Catalog Order Service, and Clearbay. All nine projects have shareable case-study URLs, distinct OG cards, explicit ownership and evidence, failure tradeoffs, and a concrete next-improvement plan. A new engineering writing archive connects working code to judgment on bounded crawling, transactional idempotency, deterministic agent evals, and durable human approval. M.S. ECE, Carnegie Mellon."
+      "blurb": "systems-first portfolio led by CrawlForge, Catalog Order Service, and Clearbay, now connected by a concise Now / Looking for narrative and a keyboard-accessible nine-project topology. Four compact failure guarantees lead into shareable case studies. The engineering writing collection records published and updated dates, visualizes each design decision, links claims to commit-pinned code and primary sources, and connects related essays. M.S. ECE, Carnegie Mellon."
     }
   ]
 }
