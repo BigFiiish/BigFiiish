@@ -1,8 +1,17 @@
 {
   "login": "BigFiiish",
-  "ignore": ["BigFiiish"],
+  "ignore": [
+    "BigFiiish"
+  ],
   "buildingLimit": 7,
   "featured": [
+    {
+      "repo": "signal-ledger",
+      "title": "Signal Ledger",
+      "short": "auditable ETF research and execution simulation",
+      "visibility": "private",
+      "blurb": "Python ETF research workbench with real-data reconciliation, causal pandas/NumPy backtests, covariance risk budgeting, cash-constrained fills, lagged liquidity limits and cost stress tests. Includes an archived walk-forward Ridge experiment and an English research dashboard (owner-private). 51 tests pass with 92.82% coverage. Research-only: unresolved data exceptions and zero verified V2 forward observations remain visible; no live trading or proven alpha claims"
+    },
     {
       "repo": "crawlforge",
       "title": "CrawlForge",

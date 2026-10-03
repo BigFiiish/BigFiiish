@@ -25,7 +25,7 @@
 - 🎧 Previously interned at **Sonos** (Kafka → search-index pipeline, Redis query cache, **+30% search speed**) and **Tencent** (Spring Boot APIs, Redis, JMeter at **8k concurrent users**, **−30% P99**)
 - 🎓 **M.S. Electrical & Computer Engineering**, Carnegie Mellon University · **B.S. ECE**, Florida Institute of Technology
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
-- 🔭 <!-- BUILDING:START -->Currently building **[CrawlForge](https://github.com/BigFiiish/crawlforge)** (careers intelligence crawler), **[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** (transaction-safe Spring checkout), **[Grantline](https://github.com/BigFiiish/grantline)** (passwordless access broker), **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk), and **[PulseQueue](https://github.com/BigFiiish/pulsequeue)** (live job-queue dashboard)<!-- BUILDING:END -->
+- 🔭 <!-- BUILDING:START -->Currently building **[Signal Ledger](https://github.com/BigFiiish/signal-ledger)** (private source) (auditable ETF research and execution simulation), **[CrawlForge](https://github.com/BigFiiish/crawlforge)** (careers intelligence crawler), **[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** (transaction-safe Spring checkout), **[Grantline](https://github.com/BigFiiish/grantline)** (passwordless access broker), **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent), and **[Durable Brief](https://github.com/BigFiiish/durable-brief)** (Vercel Workflows briefing desk)<!-- BUILDING:END -->
 
 ### Tech stack
 
@@ -92,6 +92,8 @@
 ### Featured projects
 
 <!-- FEATURED:START -->
+
+**[Signal Ledger](https://github.com/BigFiiish/signal-ledger)** (private source) — Python ETF research workbench with real-data reconciliation, causal pandas/NumPy backtests, covariance risk budgeting, cash-constrained fills, lagged liquidity limits and cost stress tests. Includes an archived walk-forward Ridge experiment and an English research dashboard (owner-private). 51 tests pass with 92.82% coverage. Research-only: unresolved data exceptions and zero verified V2 forward observations remain visible; no live trading or proven alpha claims.
 
 **[CrawlForge](https://github.com/BigFiiish/crawlforge)** — turn a company Careers page into structured job intelligence: bounded BFS discovers company/ATS listings, JSON-LD and guarded heuristics extract title, location, skills, and experience, then persisted results export to JSON/CSV. Explainable resume matching works deterministically with an optional server-side OpenAI path. Java 21 + Spring Boot + JDBC/H2, SSRF-safe and robots-aware, with 20 passing tests. Live: [xingji-crawlforge.onrender.com](https://xingji-crawlforge.onrender.com).
 

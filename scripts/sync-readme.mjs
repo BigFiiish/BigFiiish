@@ -48,7 +48,7 @@ function displayName(repo, curated) {
 
 function repoLink(repo, curated) {
   const title = displayName(repo, curated);
-  return `**[${title}](${repo.html_url})**`;
+  return `**[${title}](${repo.html_url})**${repo.private ? " (private source)" : ""}`;
 }
 
 function shortLabel(repo, curated) {
@@ -109,7 +109,13 @@ const curatedByRepo = new Map(
 const ordered = [];
 const seen = new Set();
 for (const item of config.featured ?? []) {
-  const repo = byName.get(item.repo);
+  // Only explicitly curated private projects may appear on the public profile.
+  // Their descriptions come from reviewed config, never private API metadata.
+  const repo = byName.get(item.repo) ?? (item.visibility === "private" ? {
+    name: item.repo,
+    html_url: `https://github.com/${config.login}/${item.repo}`,
+    private: true,
+  } : null);
   if (!repo) continue;
   ordered.push(repo);
   seen.add(repo.name);
@@ -135,4 +141,4 @@ let readme = readFileSync(readmePath, "utf8");
 readme = replaceBlock(readme, BUILDING_START, BUILDING_END, buildingInner);
 readme = replaceBlock(readme, FEATURED_START, FEATURED_END, featuredInner);
 writeFileSync(readmePath, readme);
-console.log(`Synced ${ordered.length} public project(s) into README.md`);
+console.log(`Synced ${ordered.length} public or explicitly curated project(s) into README.md`);
