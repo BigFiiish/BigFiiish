@@ -10,7 +10,8 @@
       "title": "Signal Ledger",
       "short": "auditable research and prospective paper accounting",
       "visibility": "private",
-      "blurb": "Python ETF research and prospective paper-account system: causal backtests, covariance risk budgets, integer-share accounting, settled cash, dividend receivables, transactional SQLite journals, frozen-code scheduled runs and separately imported execution-cost evidence. English dashboard and source are private. Historical data exceptions remain explicitly quarantined; forward performance and observed-cost claims require actual records. No broker orders or proven alpha claims"
+      "blurb": "Python ETF research and prospective paper-account system: causal backtests, covariance risk budgets, integer-share accounting, settled cash, dividend receivables, transactional SQLite journals, frozen-code scheduled runs and separately imported execution-cost evidence. Public English research dashboard; source remains private. Historical data exceptions remain explicitly quarantined; forward performance and observed-cost claims require actual records. No broker orders or proven alpha claims",
+      "live": "https://signal-ledger.yanxingji7.chatgpt.site/"
     },
     {
       "repo": "crawlforge",
