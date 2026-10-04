@@ -14,6 +14,13 @@
       "live": "https://signal-ledger.yanxingji7.chatgpt.site/"
     },
     {
+      "repo": "event-ledger",
+      "title": "Event Ledger",
+      "short": "measured Java event processing",
+      "live": "https://event-ledger-beryl.vercel.app/",
+      "blurb": "Java 21 order-book and replay laboratory: reference maps versus bounded arrays, strict sequence validation, 17 JUnit tests, and three JVM benchmark forks. Reports service and scheduled-arrival latency separately, retains raw measurements and environment hashes, and exposes backpressure and tail spikes. Synthetic Windows measurements; no exchange connectivity or live-trading claims"
+    },
+    {
       "repo": "crawlforge",
       "title": "CrawlForge",
       "short": "careers intelligence crawler",
