@@ -27,6 +27,8 @@
 - 📜 Inventor, CN205178942U (flexible-solar emergency power) · **Google Cloud Professional Cloud Architect**
 - 🔭 <!-- BUILDING:START -->Currently building **[Signal Ledger](https://github.com/BigFiiish/signal-ledger)** (private source) (auditable research and prospective paper accounting), **[Event Ledger](https://github.com/BigFiiish/event-ledger)** (measured Java event processing), **[CrawlForge](https://github.com/BigFiiish/crawlforge)** (careers intelligence crawler), **[Catalog Order Service](https://github.com/BigFiiish/catalog-order-service)** (transaction-safe Spring checkout), **[Grantline](https://github.com/BigFiiish/grantline)** (passwordless access broker), **[Clearbay](https://github.com/BigFiiish/clearbay)** (multi-tenant 3PL API), and **[Dockline](https://github.com/BigFiiish/dockline)** (eval-first MCP ops agent)<!-- BUILDING:END -->
 
+- I also build role-based career operations workspaces with responsive task queues, grouped dashboards, and permission-aware navigation.
+
 ### Tech stack
 
 **Languages**
