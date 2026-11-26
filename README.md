@@ -119,6 +119,8 @@
 
 **[xingjiyan.com](https://github.com/BigFiiish/xingji-portfolio)** — systems-first portfolio led by CrawlForge, Catalog Order Service, and Clearbay, now connected by a concise Now / Looking for narrative and a keyboard-accessible nine-project topology. Four compact failure guarantees lead into shareable case studies. The engineering writing collection records published and updated dates, visualizes each design decision, links claims to commit-pinned code and primary sources, and connects related essays. M.S. ECE, Carnegie Mellon. Live: [www.xingjiyan.com](https://www.xingjiyan.com).
 
+**[Summer2027-Internships-H1B](https://github.com/BigFiiish/Summer2027-Internships-H1B)** — Summer 2027 internships and new grad roles, updated daily, with H-1B sponsorship evidence for each employer (DOL filings and quoted job-post language). By GofferX.
+
 **[java-exam-practice](https://github.com/BigFiiish/java-exam-practice)** — public project.
 
 <!-- FEATURED:END -->
